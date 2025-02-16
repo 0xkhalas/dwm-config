@@ -2,7 +2,7 @@
 
 feh --bg-scale ~/Downloads/wp.png
 setxkbmap us,ru -option 'grp:caps_toggle'
-dwmblocks &
+~/.env/dwm/bar.sh &
 
 while true; do
 	# Log stderror to a file
